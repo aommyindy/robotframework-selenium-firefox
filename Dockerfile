@@ -18,4 +18,7 @@ ENV SCREEN_WIDTH 1280
 ENV SCREEN_HEIGHT 720
 ENV SCREEN_DEPTH 16
 
+VOLUME ["/tests"]
+VOLUME ["/out"]
+
 ENTRYPOINT [ "/opt/bin/entry_point.sh" ]
