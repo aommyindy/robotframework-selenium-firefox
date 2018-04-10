@@ -1,6 +1,6 @@
 # Build
 ``` bash
-docker build --rm -f Dockerfile -t robotframework-selenium-firefox .
+docker build --rm -f Dockerfile -t aommyindy/robotframework-selenium-firefox .
 ```
 
 # Run (bash)
@@ -8,7 +8,7 @@ docker build --rm -f Dockerfile -t robotframework-selenium-firefox .
 docker run -it --rm \
 -v $(pwd)/tests:/tests/ \
 -v $(pwd)/out:/out:rw \
-robotframework-selenium-firefox \
+aommyindy/robotframework-selenium-firefox \
 --outputdir /out /tests
 ```
 
