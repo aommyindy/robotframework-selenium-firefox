@@ -13,4 +13,4 @@ robotframework-selenium-firefox \
 ```
 
 # note
-_$(pwd) = root path_ 
+_$(pwd) = local path_ 
