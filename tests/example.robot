@@ -4,7 +4,6 @@ Library           Selenium2Library
 *** Variables ***
 ${BROWSER}          firefox
 ${URL_GOOGLE}       www.google.co.th
-${URL_BIGC}         www.bigc.co.th
 
 *** Test Cases ***
 Google Devops And Find BigC
